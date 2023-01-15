@@ -1,9 +1,37 @@
 * {
-    color:rgb(88, 13, 158);
+    color:darkred;
     background-color:blanchedalmond;
-    font-family: "Helvetica";
+    font-family: "Courier New", "Helvetica", sans-serif;
 }
 
-p {
-    color: red;
+h1 {
+    text-align: center;
+}
+
+img {
+    align-content: center;
+}
+
+button, button a {
+    background-color: black;
+    color: black;
+}
+
+.gelb, .gelb a {
+    background-color: yellow;
+    color: darkred;
+}
+
+.braun, .braun a {
+    background-color: brown;
+    color: lightgray;
+}
+
+.reverse, .reverse a{
+    background-color: darkred;
+    color: blanchedalmond;
+}
+
+div {
+    text-align: center;
 }
