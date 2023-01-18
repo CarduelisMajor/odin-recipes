@@ -2,6 +2,7 @@
     color:darkred;
     background-color:blanchedalmond;
     font-family: "Courier New", "Helvetica", sans-serif;
+
 }
 
 h1 {
@@ -34,4 +35,15 @@ button, button a {
 
 div {
     text-align: center;
+}
+menu.flexibel {
+    display: flex;
+
+}
+menuitem {
+    margin: 5px;
+}
+
+.rand {
+    padding: 10px;
 }
