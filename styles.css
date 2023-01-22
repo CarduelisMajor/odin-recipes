@@ -17,7 +17,7 @@ img {
 }
 
 button, button a {
-    background-color: black;
+    background-color: olive;
     color: black;
 }
 
@@ -31,22 +31,52 @@ button, button a {
     color: lightgray;
 }
 
+.rot, .rot a {
+    background-color: red;
+}
+
+.gruen, .gruen a {
+    background-color: green;
+    color: lightgray;
+}
+
+.lila, .lila a {
+    background-color: purple;
+    color: lightgray;
+}
+
+.blau, .blau a {
+    background-color: blue;
+    color: lightgray;
+}
+
+.orange, .orange a {
+    background-color: orange;
+    color: black;
+}
+
+.grau, .grau a {
+    background-color: lightgray;
+    color: black;
+}
+
 .reverse, .reverse a{
     background-color: darkred;
     color: blanchedalmond;
 }
 
-div {
-    text-align: center;
-}
-menu.flexibel {
+.flexibel {
     display: flex;
-
+    flex-wrap: wrap;;
 }
+
 button {
     margin: 5px;
+    display: flex;
+    flex: 1 1 auto; /* = flex-grow: 1; flex-shrink: 1; flex-basis: auto; */
+    justify-content: center;
 }
 
-.rand {
+button > a {
     padding: 10px;
 }
